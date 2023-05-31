@@ -46,6 +46,7 @@ import { FileUploadModule } from 'ng2-file-upload';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TestDataComponent } from './pages/test-data/test-data.component';
 import { TrainDataComponent } from './pages/train-data/train-data.component';
+import { UploadComponent } from './pages/upload/upload.component';
 
 @NgModule({
   declarations: [
@@ -90,7 +91,8 @@ import { TrainDataComponent } from './pages/train-data/train-data.component';
     ResultComponent,
     ModelresultComponent,
     TestDataComponent,
-    TrainDataComponent
+    TrainDataComponent,
+    UploadComponent
   ],
   imports: [
     BrowserModule,

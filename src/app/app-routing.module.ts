@@ -37,6 +37,7 @@ import { MlModelComponent } from './pages/ml-model/ml-model.component';
 import { ResultComponent } from './pages/result/result.component';
 import { TestDataComponent } from './pages/test-data/test-data.component';
 import { TrainDataComponent } from './pages/train-data/train-data.component';
+import { UploadComponent } from './pages/upload/upload.component';
 
 const routes: Routes = [
   // { path: '', component: DashboardComponent },
@@ -44,6 +45,7 @@ const routes: Routes = [
   { path: 'pages-login', component: PagesLoginComponent },
   { path: 'test-data', component: TestDataComponent },
   { path: 'train-data', component: TrainDataComponent },
+  { path: 'upload', component: UploadComponent },
   // { path: 'login', component: LoginComponent },
   { path: 'ml-model', component: MlModelComponent },
   { path: 'result', component: ResultComponent },
